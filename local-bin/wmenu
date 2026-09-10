@@ -1,0 +1,14 @@
+#!/bin/sh
+
+export PATH="$HOME/.local/bin:$HOME/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:$PATH"
+
+wmenu-run \
+  -l 10 \
+  -f "Go Mono 11" \
+  -p "Szukaj: " \
+  -N "1E160D" \
+  -n "D3D3D3" \
+  -M "595347" \
+  -m "D3D3D3" \
+  -S "595347" \
+  -s "D3D3D3"
